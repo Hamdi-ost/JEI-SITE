@@ -51,6 +51,7 @@ img {
     width: 100%;
     max-width: 100%;
     height: auto;
+    
 }
 .section-default {
     padding: 120px 0 90px;
@@ -538,5 +539,51 @@ img {
     margin-top: -20px;
 }
 
+#bloc
+{
+width: 100%;
+height: 300px;
+background-color:#0c1434;
+}
 
 
+
+#titre
+{ margin: auto;
+    width: 80%;
+    padding: 100px 0;
+ text-align: center;
+    font-size: 450%;
+    color: white;
+}
+#blocimg
+{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 350px;
+   
+   
+}
+.post-info-meta
+{
+    font-size: 17px;
+    color:#777;
+}
+.post-info-meta-big
+{font-size: 25px;
+    font-weight: bold;
+    color: #8b252c;
+}
+#texte{
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #6b6b6b;
+    line-height: 30px;
+    position: relative;
+    padding-left:50px
+}

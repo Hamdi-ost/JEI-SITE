@@ -390,7 +390,8 @@ md-dialog {
 }
 
 .navbar {
-    margin-bottom: 0px;
+    margin-top: -50px;
+    margin-bottom: 10px;
 }
 
 .navbar-nav {
@@ -1497,8 +1498,8 @@ a:visited {
 }
 
 .btn-style-1 {
-    background: -webkit-linear-gradient(to top left, #8b252c 0%, #0c1434 100%) !important;
-    background: linear-gradient(to top left, #8b252c 0%, #0c1434 100%) !important;
+    background: -webkit-linear-gradient(to top left, #c0c0c0 0%, #0c1434 100%) !important;
+    background: linear-gradient(to top left, #c0c0c0 0%, #0c1434 100%) !important;
     transition: 1s ease-in-out;
     position: relative;
     display: inline-block;
@@ -1511,8 +1512,8 @@ a:visited {
 }
 
 .btn-style-1:hover {
-    background: -webkit-linear-gradient(to top right, #8b252c 0%, #0c1434 100%) !important;
-    background: linear-gradient(to top right, #8b252c 0%, #0c1434 100%) !important;
+    background: -webkit-linear-gradient(to top right, #c0c0c0 0%, #0c1434 100%) !important;
+    background: linear-gradient(to top right, #c0c0c0 0%, #0c1434 100%) !important;
 }
 
 .btn-style-1.type-1 span,
@@ -1522,8 +1523,8 @@ a:visited {
 .btn-style-1 .type-6 span,
 .btn-style-1 .type-7 span,
 .btn-style-1 {
-    background: -webkit-linear-gradient(to top left, #8b252c 0%, #0c1434 100%) !important;
-    background: linear-gradient(to top left, #8b252c 0%, #0c1434 100%) !important;
+    background: -webkit-linear-gradient(to top left, #c0c0c0 0%, #0c1434 100%) !important;
+    background: linear-gradient(to top left, #c0c0c0 0%, #0c1434 100%) !important;
 }
 
 .btn-style-2 {
@@ -2028,13 +2029,13 @@ a.btn-style-6.dark-skin:hover {
 
 .about-service li {
     float: left;
-    width: 50%;
-    font-size: 14px;
+    width: 100%;
+    font-size: 17px;
     font-weight: bold;
     color: #6b6b6b;
     line-height: 30px;
     position: relative;
-    padding-left: 25px;
+    padding-left: 100px;
 }
 
 .about-service li:before {
@@ -2948,9 +2949,9 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .main-heading {
-    background: url(../images//Bureau/bureau.jpg) no-repeat;
+    background: url(../images/projects-01-01.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -45px; 
+    background-position-y: -90px; 
     padding: 120px 0;
 
 }
@@ -2964,9 +2965,33 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .main-heading-events {
-    background: url(../images/event.jpg) no-repeat;
+    background: url(../images/EVENT-01.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -45px; 
+    background-position-y: -90px; 
+    padding: 120px 0;
+
+}
+
+.main-heading-contact {
+    background: url(../images/CONTACT-01.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -90px; 
+    padding: 120px 0;
+
+}
+
+.main-heading-formations {
+    background: url(../images/FORMATIONS-01.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -90px; 
+    padding: 120px 0;
+
+}
+
+.main-heading-actualites {
+    background: url(../images/ACTU-01.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -90px; 
     padding: 120px 0;
 
 }
@@ -3212,7 +3237,7 @@ a.btn-style-6.dark-skin:hover {
 
 .post-info-meta span,
 .post-info-meta a {
-    color: #ffb300;
+    color: #8b252c ;
 }
 
 .blog-listing li p {
@@ -6099,7 +6124,7 @@ select {
 
 .employe-social-icons-classic i {
     padding: 0px 5px;
-    color: #ccc;
+    color: #8b252c;
     text-align: center;
     display: inline-block;
 }

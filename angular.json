@@ -63,6 +63,7 @@
               "src/assets/js/wew.min.js",
               "src/assets/js/scrolltopcontrol.js",
               "src/assets/js/jquery.slicknav.js",
+              "src/assets/js/modal.js",
               "src/assets/js/script.js"
             ]
           },

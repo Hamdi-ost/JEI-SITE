@@ -479,7 +479,7 @@
                 {
                     "name": "Oussama Ben Sghaier",
                     "img": "efret2.jpeg",
-                    "post": "Software Engineering Student at INSAT",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
                     "socialMedia": {
                         "facebook": "https://www.facebook.com/oussama.sghaier.7",
                         "linkedin": "https://www.linkedin.com/in/oussama-ben-sghaier/",
@@ -489,7 +489,7 @@
                 {
                     "name": "Trablesi Imen",
                     "img": "efret.jpeg",
-                    "post": "Software Engineering Student at INSAT",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
                     "socialMedia": {
                         "facebook": "https://www.facebook.com/imantra96",
                         "linkedin": "https://www.linkedin.com/in/imen-trabelsi-0b3505127/",
@@ -539,7 +539,7 @@
                 {
                     "name": "Montassar Azzaiez",
                     "img": "gain.png",
-                    "post": "",
+                    "post": "Élève Ingénieur en IMI, INSAT",
                     "socialMedia": {
                         "facebook": "https://www.facebook.com/azaiezmontassar",
                         "linkedin": "",
@@ -725,7 +725,7 @@
                     "title": "Photo 2"
                 },
                 {
-                    "img": "innov2-3.jpg",
+                    "img": "forma2-3.jpg",
                     "title": "Photo 3"
                 }
             ],
@@ -820,7 +820,7 @@
             "name": "Formation photoshop 1ere session",
             "date": "18/01/2018",
             "category": "design",
-            "img": "4.png",
+            "img": "4.jpg",
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "PDG INSAT",
@@ -880,7 +880,7 @@
             "name": "Formation photoshop 2eme session",
             "date": "24/01/2018",
             "category": "design",
-            "img": "4.png",
+            "img": "4.jpg",
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "formatrice",
@@ -1152,86 +1152,88 @@
             "afterMovie": null
         }
     ],
-  "sponsors": [
+    "sponsors": [
         {
             "name": "Infor",
             "img": "infor.jpg"
         },
         {
-          "name": "Incept",
-          "img": "incept.jpg"
+            "name": "Incept",
+            "img": "incept.jpg"
         },
         {
-          "name": "Studely",
-          "img": "studely.jpg"
+            "name": "Studely",
+            "img": "studely.jpg"
         },
         {
-          "name": "Laser Ice Game",
-          "img": "laser-game-evolution.jpg"
+            "name": "Laser Ice Game",
+            "img": "laser-game-evolution.jpg"
         },
         {
-          "name": "Arvea",
-          "img": "arvea.jpg"
+            "name": "Bouche B",
+            "img": "logo-1.png"
         },
         {
-          "name": "Five Points",
-          "img": "5-points.jpg"
+            "name": "Arvea",
+            "img": "arvea.jpg"
         },
         {
-          "name": "Atct",
-          "img": "atct.jpg"
+            "name": "Five Points",
+            "img": "5-points.jpg"
         },
         {
-          "name": "Digitys",
-          "img": "digitys.jpg"
+            "name": "Atct",
+            "img": "atct.jpg"
         },
         {
-          "name": "Ennakel",
-          "img": "ennakel.jpg"
+            "name": "Digitys",
+            "img": "digitys.jpg"
         },
         {
-          "name": "Express FM",
-          "img": "express.jpg"
+            "name": "Ennakel",
+            "img": "ennakel.jpg"
         },
         {
-          "name": "Mehdi Tours",
-          "img": "mehdi-tours.jpg"
+            "name": "Express FM",
+            "img": "express.jpg"
         },
         {
-          "name": "MIT",
-          "img": "mit.jpg"
+            "name": "Mehdi Tours",
+            "img": "mehdi-tours.jpg"
         },
         {
-          "name": "Ooredoo",
-          "img": "ooredoo.jpg"
+            "name": "MIT",
+            "img": "mit.jpg"
         },
         {
-          "name": "Perfect Vision",
-          "img": "perfect-vision.jpg"
+            "name": "Ooredoo",
+            "img": "ooredoo.jpg"
         },
         {
-          "name": "The Corner",
-          "img": "the-corner.jpg"
+            "name": "Perfect Vision",
+            "img": "perfect-vision.jpg"
         },
         {
-          "name": "Tunisie Telecom",
-          "img": "tunisie-telecom.jpg"
+            "name": "The Corner",
+            "img": "the-corner.jpg"
         },
         {
-          "name": "Vistaprint",
-          "img": "vistaprint.jpg"
+            "name": "Tunisie Telecom",
+            "img": "tunisie-telecom.jpg"
+        },
+        {
+            "name": "Vistaprint",
+            "img": "vistaprint.jpg"
         }
-
-
-  ],
-  "partners": [
-    {
-      "name": "CFE Conseil",
-      "img": "cef-conseil.jpg"
-    },
-    {
-      "name": "PFI Consulting",
-      "img": "pfi-consulting.png"
-    }
-  ]
+    ],
+    "partners": [
+        {
+            "name": "CFE Conseil",
+            "img": "cef-conseil.jpg"
+        },
+        {
+            "name": "PFI Consulting",
+            "img": "pfi-consulting.png"
+        }
+    ]
 }

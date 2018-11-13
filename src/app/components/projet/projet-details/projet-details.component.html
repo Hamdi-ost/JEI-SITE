@@ -10,9 +10,9 @@
           <h1 class="title">{{name}}</h1>
           <div class="separator-2"></div>
           <h3>Presentation de l'entreprise</h3>
-          
+
           <p>{{presentationEntreprise}}</p>
-         
+
           <h3>Presentation de projet</h3>
           <p>{{presentationProjet}}</p>
           <div class="separator-2"></div>
@@ -22,15 +22,16 @@
               <ul class="row testimonials-page test">
                 <li class="col-md-6">
                   <div class="testi-info">
-                    <div class="client-image"><img src="../../../../assets/images/projects/temoignage/{{temoignageClient.img}}" style="width: 400px; height: 150px;"></div>
+                    <div class="client-image"><img src="../../../../assets/images/projects/temoignage/{{temoignageClient.img}}"
+                        style="width: 400px; height: 150px;"></div>
                     <div class="test-desc" style="margin-top: 22px;">
-                        <div class="test-desc">
-                            <p>{{client.testimonial}}</p>
-                            <div class="name">{{temoignageClient.name}} <span>{{temoignageClient.poste}}</span></div>
-                            <a href="../../../../assets/docs/Projets externes/Etudes de satisfaction client/{{temoignageClient.doc}}"
-                            target="_blank">Etudes de satisfaction client </a>
-                          </div>
-                     
+                      <div class="test-desc">
+                        <p>{{client.testimonial}}</p>
+                        <div class="name">{{temoignageClient.name}} <span>{{temoignageClient.poste}}</span></div>
+                        <a href="../../../../assets/docs/Projets externes/Etudes de satisfaction client/{{temoignageClient.doc}}"
+                          target="_blank">Etudes de satisfaction client </a>
+                      </div>
+
                     </div>
                   </div>
                 </li>
@@ -47,7 +48,7 @@
             <div class="row margin-b-60">
               <div *ngFor="let membre of membreAffectees" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="employe-container">
-                  <div class="employe-thumbnail-classic" >
+                  <div class="employe-thumbnail-classic">
                     <img class="" src="../../../../assets/images/projects/membreAffectees/{{membre.img}}" style="height: 300px">
                   </div>
                   <div class="employe-desc">
@@ -75,28 +76,66 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
+              <div class="row demo">
                 <div *ngFor="let demoImg of demo; let i=index" class="col-md-4 col-sm-6 full-wd600 p-none">
                   <div class="box">
-                    <img src="../../../../assets/images/projects/demo/{{demoImg}}" alt="">
+                    <img data-toggle="modal" data-target="#exampleModal" src="../../../../assets/images/projects/demo/{{demoImg}}"
+                      alt="">
                     <div class="box-content">
-                        <h3 class="title">Demo {{i+1}}</h3>
+                      <h3 class="title">Demo {{i+1}}</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="home-portfolios p-t-60">
+                  <div class="row filtr-container">
+                    <div *ngFor="let demoImg of demo; let i=index" class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated"
+                      data-wew-delay="1s" data-category="1, 4" data-sort="City wonders" data-visibility="true"
+                      data-animated="true" style="visibility: visible; animation-delay: 1s;">
+                      <div class="product-container">
+                        <a href="../../../../assets/images/projects/demo/{{demoImg}}" class="portfolio-img mfp-image">
+                          <img src="../../../../assets/images/projects/demo/{{demoImg}}" alt="">
+                        </a>
+                        <span class="item-desc">Demo {{i+1}}</span>
                       </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+              <br><br>
+              <p *ngIf="video" class="video">
+                <video style="padding-left: 250px" controls>
+                  <source src="../../../../assets/docs/Projets externes/Livrable/LivrableBuvette/{{video}}" type="video/mp4">
+                </video>
+              </p>
+            </div>
+
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                   </div>
                 </div>
               </div>
-              <br><br>
-              <p *ngIf="video">
-                <video   style="padding-left: 250px" controls>
-                    <source src="../../../../assets/docs/Projets externes/Livrable/LivrableBuvette/{{video}}" type="video/mp4">
-                </video>
-              </p>
             </div>
           </section>
 
         </div>
 
-        <!-- ================ -->
+
         <aside class="col-lg-4 col-xl-3 ml-xl-auto">
           <div class="sidebar">
             <div class="block clearfix" style="padding-top: 150px">
@@ -109,8 +148,8 @@
                 <li><strong>Place: </strong> <span class="text-right">Tunisie</span></li>
                 <li><strong>Personne à contacter: </strong> <span class="text-right">{{contact}}</span></li>
                 <li *ngIf="url"><strong>URL: </strong> <span class="text-right"><a href="#">{{url}}</a></span></li>
-                <li>  <img src="../../../../assets/images/projects/logo/{{logo}}" alt="" style="height: 150px; width: 250px"></li>
-              
+                <li> <img src="../../../../assets/images/projects/logo/{{logo}}" alt="" style="height: 150px; width: 250px"></li>
+
               </ul>
             </div>
           </div>
@@ -119,3 +158,4 @@
     </div>
   </section>
 </div>
+

@@ -1,13 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ElementRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import * as data from '../../../../assets/contenu.json';
+
 
 @Component({
   selector: 'app-projet-details',
   templateUrl: './projet-details.component.html',
   styleUrls: ['./projet-details.component.css']
 })
-export class ProjetDetailsComponent   {
+export class ProjetDetailsComponent  implements AfterViewInit {
 
   name ;
   client;
@@ -50,5 +51,11 @@ export class ProjetDetailsComponent   {
     });
 
   }
+
+  ngAfterViewInit() {
+  const s = document.createElement('script');
+  s.type = 'text/javascript';
+   s.innerHTML = 'console.log(\'done\');'; // inline script
+ }
 
 }

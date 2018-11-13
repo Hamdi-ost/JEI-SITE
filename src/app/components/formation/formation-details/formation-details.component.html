@@ -1,184 +1,191 @@
 <!--inner header start-->
-<div class="main-heading">
-  <div class="container">
-    <h3 style="color: #8b252c">{{name}}</h3>
+<div id="bloc">
+  <div id="center">
+
+    <h3 id="titre">{{name}}</h3>
+
   </div>
 </div>
 <!--inner header end-->
 <!--inner content start-->
-<div class="main-content" style="text-align: center;">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <!-- Blog List start -->
-        <div class="blog-container blogdetail">
-          <ul class="blog-listing">
-            <li>
-              <div class="postimg">
-                <img src="../../../assets/images/formations/affiche/{{img}}" alt="Blog Title">
-              </div>
-              <div class="post-detail">
-                <div class="blog-post-heading margin-top30">
-                  <h4>{{name}}</h4>
-                  <div class="post-info-meta">Date:
-                    <span>{{date}}</span> By :
-                    <span>{{trainer.name}} </span> Category :
-                    <span>{{category}}</span>
-                  </div>
-                </div>
-                <br>
-                <br>
-                <h5>Nos objectifs</h5>
-                <br>
-                <div class="row " style="margin:200">
-                  <ul class="about-service wew fadeInUp " data-wew-delay="1s ">
-                    <li *ngFor="let objectif of objectifs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{objectif}}</li>
-                    <div class="clearfix "></div>
-                  </ul>
-                </div>
-                <br>
-                <br>
-                <p>{{description}}</p>
-              </div>
-            </li>
 
-          </ul>
+
+
+
+<!-- Blog List start -->
+
+<ul>
+  <li>
+
+    <div class="post-detail">
+      <div class="blog-post-heading margin-top30">
+
+        <div class="post-info-meta">Date:
+          <span>{{date}}</span> By :
+          <span>{{trainer.name}} </span> Category :
+          <span>{{category}}</span>
 
         </div>
-
+        <br>
+        <div class="post-info-meta-big">
+          NOS OBJECTIFS:
+        </div>
       </div>
+      <br>
+
+      <div class="row  " style="padding-left:50px">
+        <ul class="about-service wew fadeInUp " data-wew-delay="1s ">
+          <li *ngFor="let objectif of objectifs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{objectif}}</li>
+
+        </ul>
+      </div>
+      <br>
+      <div class="post-info-meta-big">
+        DESCRIPTION:
+      </div>
+      <br>
+      <p id="texte">{{description}}
+        <br>
+        <br>
+
+      </p>
+
+    </div>
+
+
+    <img src="../../../assets/images/formations/affiche/{{img}}" alt="Blog Title" id="blocimg">
+  </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+<!--trainer-->
+<div class="team-container expert-team m-t-90">
+
+
+  <div class="col-md-12 ">
+    <div class="section-title ">
+      <h1>NOTRE
+        <span>FORMATEUR</span>
+      </h1>
     </div>
   </div>
 </div>
-<!--trainer-->
+<div class="row">
+  <div class="col-md-4 col-sm-6 ">
+  </div>
+  <div class="col-md-4 col-sm-6 ">
+    <div class="team">
+      <div class="profile-image">
+        <img src="../../../assets/images/formations/trainer/team-1.jpg">
+        <div class="team-profile">
+          <h5>
+            <a href="#">Quisque pharetra</a>
+          </h5>
+          <span>Supervisor</span>
+          <div class="employe-social-icons-classic">
+            <a href="{{trainer.facebook}}" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="{{trainer.twitter}}" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="{{trainer.linkedin}}" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="{{trainer.instagram}}" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="{{trainer.google}}" target="_blank">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+<!--Team end-->
+<!--testimonies-->
 <div class="team-container expert-team m-t-90">
-  <div class="container">
+
+
+  <div class="col-md-12 ">
+    <div class="section-title ">
+      <h1>QUELQUES
+        <span>TEMOIGNAGES</span>
+      </h1>
+    </div>
+  </div>
+</div>
+<div class="container ">
+  <div class="row ">
+    <div class="col-md-12 ">
+
+
+
+      <ul class="row testimonials-page test">
+        <li *ngFor="let t of temoignages" class=" col-md-6 ">
+          <div class="testi-info" style="width: 95%">
+            <div class="client-image">
+              <img src="../../../assets/images/formations/testimonies/{{t.picture}}" style="width:200px">
+            </div>
+            <div class="test-desc">
+              <p>{{t.review}}</p>
+              <div class="name">{{t.name}}
+                <span>{{t.authorDesc}}</span>
+              </div>
+
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!--Gallery-->
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="container ">
     <div class="row ">
       <div class="col-md-12 ">
         <div class="section-title ">
-          <h1>NOTRE
-            <span>FORMATEUR</span>
+          <h1>GALLERIE
+            <span>PHOTO</span>
           </h1>
-        </div>
-      </div>
-    </div>
-
-    <!-->
-    <div class="team-container expert-team m-t-90">
-      <div class="container">
-        <div class="row ">
-          <div class="col-md-12 ">
-            <div class="section-title ">
-              <h2>Notre
-                <span>Formateur</span>
-              </h2>
-            </div>
-          </div>
-        </div>
-        <-->
-          <div class="row">
-            <div class="col-md-4 col-sm-6 ">
-            </div>
-            <div class="col-md-4 col-sm-6 ">
-              <div class="team">
-                <div class="profile-image">
-                  <img src="../../../assets/images/formations/trainer/team-1.jpg">
-                  <div class="team-profile">
-                    <h5>
-                      <a href="#">Quisque pharetra</a>
-                    </h5>
-                    <span>Supervisor</span>
-                    <div class="employe-social-icons-classic">
-                      <a href="{{trainer.facebook}}" target="_blank">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                      <a href="{{trainer.twitter}}" target="_blank">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="{{trainer.linkedin}}" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                      </a>
-                      <a href="{{trainer.instagram}}" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                      <a href="{{trainer.google}}" target="_blank">
-                        <i class="fa fa-google-plus"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-    </div>
-    <!--Team end-->
-    <!--testimonies-->
-
-    <div class="container">
-      <div class="row ">
-        <div class="col-md-12 ">
-          <div class="section-title ">
-            <h1>QUELQUES
-              <span>TEMOIGNAGES</span>
-            </h1>
-          </div>
           <br>
-          <br>
-          <ul class="row testimonials-page test">
-            <li *ngFor="let t of temoignages" class=" col-md-6 ">
-              <div class="testi-info ">
-                <div class="client-image ">
-                  <img src="../../../assets/images/formations/testimonies/{{t.picture}}" style="width:200px">
-                </div>
-                <div class="test-desc ">
-                  <p>{{t.review}}</p>
-                  <div class="name ">{{t.name}}
-                    <span>{{t.authorDesc}}</span>
 
-                  </div>
-
-                </div>
-              </div>
-            </li>
-
-          </ul>
         </div>
       </div>
     </div>
-
-    <!--Gallery-->
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <div class="container ">
-      <div class="row ">
-        <div class="col-md-12 ">
-          <div class="section-title ">
-            <h1>GALLERIE
-              <span>PHOTO</span>
-            </h1>
-            <br>
-
+    <div class="row ">
+      <div *ngFor="let image of gallery " class="col-md-4 col-sm-6 full-wd600 p-none ">
+        <div class="box ">
+          <img src="../../../../assets/images/formations/gallery/{{image.img}} " alt=" " style="height: 250px">
+          <div class="box-content ">
+            <h3 class="title ">{{image.title}}</h3>
           </div>
         </div>
       </div>
-      <div class="row ">
-        <div *ngFor="let image of gallery " class="col-md-4 col-sm-6 full-wd600 p-none ">
-          <div class="box ">
-            <img src="../../../../assets/images/formations/gallery/{{image.img}} " alt=" " style="height: 250px">
-            <div class="box-content ">
-              <h3 class="title ">{{image.title}}</h3>
-            </div>
-          </div>
-        </div>
 
-      </div>
-      <br>
     </div>
+    <br>
+  </div>
+</div>
 
-    <!--inner content end-->
+<!--inner content end-->

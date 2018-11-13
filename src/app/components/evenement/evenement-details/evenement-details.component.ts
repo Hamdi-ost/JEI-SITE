@@ -17,6 +17,7 @@ export class EvenementDetailsComponent {
   sponsors;
   organizators;
   description;
+  img2;
 
   getDetails(id) {
 
@@ -29,6 +30,7 @@ export class EvenementDetailsComponent {
         this.sponsors = detail.sponsors;
         this.description = detail.description;
         this.organizators = detail.organizators;
+        this.img2 = detail.img2;
       }
      });
   }

@@ -1,6 +1,5 @@
 <div class="main-heading">
     <div class="container">
-      <h3>Projets</h3>
     </div>
   </div>
   
@@ -8,8 +7,8 @@
    <app-years-navbar></app-years-navbar>
   
     <ul class="row serviceList">
-
-       <li *ngFor="let projet of projets" class="col-md-4 col-sm-6" >
+      
+      <li *ngFor="let projet of projets" class="col-md-4 col-sm-6" >
         <div class="sevices-box" >
           <div class="service-image" style="height: 170px;"><img src="../../../assets/images/projects/affiche/{{projet.img}}">
 
@@ -18,7 +17,7 @@
           <div class="service-details hvr-sweep-to-bottom">
             <h3 style="color: #0c1434">{{projet.name}}</h3>
             <p>{{projet.decription}}</p>
-            <a routerLink="/projets/{{projet.id}}" style="margin-left: 20px;" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Lire la suite</a>
+            <a routerLink="/projets/{{projet.id}}" style="margin-left: 100px;" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Lire la suite</a>
           </div>
         </div>
       </li>

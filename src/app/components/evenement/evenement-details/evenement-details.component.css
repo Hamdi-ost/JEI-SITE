@@ -457,7 +457,7 @@ img {
 }
 .counter-col p {
     font-size: 18px;
-    color: #ffffff;
+    padding: 100px 0 120px;color: #ffffff;
     text-transform: capitalize;
 }
 
