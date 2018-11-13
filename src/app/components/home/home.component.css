@@ -1,0 +1,46 @@
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.carousel-main-title {
+  font-size: 5rem;
+}
+
+@include media-breakpoint-up(xs) {
+  .carousel-main-title {
+    font-size: 1.6rem;
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  .carousel-main-title {
+    font-size: 1.6rem;
+  }
+}
+
+
+@include media-breakpoint-up(md) {
+  .carousel-main-title {
+    font-size: 1.6rem;
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+  .carousel-main-title {
+    font-size: 1.6rem;
+  }
+}
+
+
+@include media-breakpoint-up(xl) {
+  .carousel-main-title {
+    font-size: 1.6rem;
+  }
+}

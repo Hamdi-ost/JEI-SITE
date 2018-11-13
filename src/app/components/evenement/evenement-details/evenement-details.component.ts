@@ -1,10 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-// @ts-ignore
 import * as data from '../../../../assets/contenu.json';
-=======
-/*import * as data from '../../../../assets/contenu.json';*/
->>>>>>> 6915028f4ce5f31c7e659adabb6d03bbd7999fce
 import { ActivatedRoute } from '@angular/router';
 
 
@@ -25,7 +20,7 @@ export class EvenementDetailsComponent {
 
   getDetails(id) {
 
-    const details = details['events'].filter(detail => {
+    const details = data['events'].filter(detail => {
        if (detail.id === Number(id)) {
         this.name = detail.name;
         this.speakers = detail.speakers;

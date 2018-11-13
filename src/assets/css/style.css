@@ -7455,7 +7455,7 @@ img {
 /* Lists
 ---------------------------------- */
 ul {
-  list-style: square;
+  list-style: none;
 }
 
 .list-icons,

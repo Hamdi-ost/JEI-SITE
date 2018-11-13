@@ -1,4 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -22,6 +21,10 @@ import { Departement1Component } from './components/structure/departement1/depar
 import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {FormsModule, NgForm} from '@angular/forms';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent },
@@ -65,7 +68,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule,
+    AngularFireDatabaseModule
   ],
   providers: [YearsNavbarService],
   bootstrap: [AppComponent]
