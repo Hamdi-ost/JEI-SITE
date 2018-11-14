@@ -9,12 +9,12 @@
 
   <!--<h4 class="sponsor-title">Sponsors</h4>-->
 
-  <ul class="row serviceList">
+  <ul class="row">
 
       <li *ngFor="let sponsor of sponsors" class="col-md-3 col-sm-4 col-xs-6  justify-content-center">
-        <div class="services-box">
-          <div class="service-image">
-            <img src="../../../assets/images/logos/{{sponsor.img}}" alt="{{sponsor.name}}">
+        <div>
+          <div class="sponsors-image center-block">
+            <a href="{{sponsor.link}}"><img src="../../../assets/images/logos/{{sponsor.img}}" data-toggle="popover" title="Some description of {{sponsor.name}} "></a>
           </div>
         </div>
       </li>
@@ -29,10 +29,10 @@
 
 <div class="container">
 
-  <ul class="row serviceList">
+  <ul class="row">
     <li *ngFor="let partner of partners" class="col-md-6 col-sm-6 justify-content-center">
-      <div class="services-box">
-        <div class="service-image"><img src="../../../assets/images/logos/{{partner.img}}">
+      <div >
+        <div class="sponsors-image"><img src="../../../assets/images/logos/{{partner.img}}">
 
         </div>
 
@@ -40,6 +40,9 @@
       </div>
     </li>
   </ul>
+
+
+  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
 
 
 </div>

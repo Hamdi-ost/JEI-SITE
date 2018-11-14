@@ -24,6 +24,7 @@
             ],
             "styles": [
               "src/assets/css/angular-material.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/font-awesome.min.css",
               "src/assets/css/magnific-popup.min.css",
@@ -36,7 +37,7 @@
               "src/styles.css"
             ],
             "scripts": [
-           
+
               "src/assets/js/modernizr.min.js",
               "src/assets/js/angular.min.js",
               "src/assets/js/angular-animate.min.js",
@@ -46,13 +47,12 @@
               "src/assets/js/assets-cache.js",
               "src/assets/js/app.js",
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
               "src/assets/js/jquery-2.1.4.min.js",
               "src/assets/js/jquery.easing.js",
               "src/assets/js/morphext.min.js",
               "src/assets/js/jquery.filterizr.min.js",
               "src/assets/js/projects.js" ,
-              "src/assets/js/bootstrap.min.js",
               "src/assets/js/jquery.sticky.js",
               "src/assets/js/wow.min.js",
               "src/assets/js/jquery.scrollTo.min.js",

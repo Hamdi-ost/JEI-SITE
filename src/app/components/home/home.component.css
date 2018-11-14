@@ -1,15 +1,33 @@
+.filtered {
+    background: #0c1434;
+    position: relative;
+}
 
-.centered-text {
+
+.filtered img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+
+
+.left-text {
+  z-index: 1;
+  width: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -70%);
 }
 
 
 .carousel-main-title {
+  color: #eeeeee;
   font-size: 5rem;
 }
+
+
 
 @include media-breakpoint-up(xs) {
   .carousel-main-title {
@@ -43,4 +61,57 @@
   .carousel-main-title {
     font-size: 1.6rem;
   }
+}
+
+
+.jumbotron {
+  margin: 0px;
+}
+
+#actualité {
+  background: #7482cc;
+}
+
+#sponsors {
+  background: #ffffff;
+}
+
+
+#newsletter {
+  background: #77494b;
+}
+
+.sponsors-home {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.sponsors-home img {
+  height: 80px;
+  float: center;
+
+}
+
+.sponsors-home .sponsor-image {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+
+
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+
+.sponsors-home .sponsor-image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+
 }
