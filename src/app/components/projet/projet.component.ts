@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// @ts-ignore
 import * as data from '../../../assets/contenu.json';
 
 @Component({
@@ -11,11 +10,11 @@ export class ProjetComponent implements OnInit {
 
   projets;
 
-  constructor() {
+  constructor( ) {
     this.projets = data['projets'];
   }
 
   ngOnInit() {
-  }
+ }
 
 }

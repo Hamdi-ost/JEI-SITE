@@ -84,7 +84,7 @@
   <div class="col-md-4 col-sm-6 ">
     <div class="team">
       <div class="profile-image">
-        <img src="../../../assets/images/formations/trainer/team-1.jpg">
+        <img src="../../../assets/images/formations/trainer/{{trainer.picture}}">
         <div class="team-profile">
           <h5>
             <a href="#">Quisque pharetra</a>
@@ -94,18 +94,22 @@
             <a href="{{trainer.facebook}}" target="_blank">
               <i class="fa fa-facebook"></i>
             </a>
+            <!-->
             <a href="{{trainer.twitter}}" target="_blank">
               <i class="fa fa-twitter"></i>
             </a>
-            <a href="{{trainer.linkedin}}" target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="{{trainer.instagram}}" target="_blank">
-              <i class="fa fa-instagram"></i>
-            </a>
-            <a href="{{trainer.google}}" target="_blank">
-              <i class="fa fa-google-plus"></i>
-            </a>
+            <-->
+              <a href="{{trainer.linkedin}}" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <!-->
+              <a href="{{trainer.instagram}}" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="{{trainer.google}}" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <-->
           </div>
         </div>
       </div>
@@ -117,6 +121,7 @@
 </div>
 <!--Team end-->
 <!--testimonies-->
+<!-->
 <div class="team-container expert-team m-t-90">
 
 
@@ -128,64 +133,67 @@
     </div>
   </div>
 </div>
-<div class="container ">
-  <div class="row ">
-    <div class="col-md-12 ">
-
-
-
-      <ul class="row testimonials-page test">
-        <li *ngFor="let t of temoignages" class=" col-md-6 ">
-          <div class="testi-info" style="width: 95%">
-            <div class="client-image">
-              <img src="../../../assets/images/formations/testimonies/{{t.picture}}" style="width:200px">
-            </div>
-            <div class="test-desc">
-              <p>{{t.review}}</p>
-              <div class="name">{{t.name}}
-                <span>{{t.authorDesc}}</span>
-              </div>
-
-            </div>
-          </div>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-
-  <!--Gallery-->
-  <br>
-  <br>
-  <br>
-  <br>
-
-
+<-->
   <div class="container ">
+    <!-->
     <div class="row ">
       <div class="col-md-12 ">
-        <div class="section-title ">
-          <h1>GALLERIE
-            <span>PHOTO</span>
-          </h1>
-          <br>
 
-        </div>
+
+
+        <ul class="row testimonials-page test">
+          <li *ngFor="let t of temoignages" class=" col-md-6 ">
+            <div class="testi-info" style="width: 95%">
+              <div class="client-image">
+                <img src="../../../assets/images/formations/testimonies/{{t.picture}}" style="width:200px">
+              </div>
+              <div class="test-desc">
+                <p>{{t.review}}</p>
+                <div class="name">{{t.name}}
+                  <span>{{t.authorDesc}}</span>
+                </div>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+
       </div>
     </div>
-    <div class="row ">
-      <div *ngFor="let image of gallery " class="col-md-4 col-sm-6 full-wd600 p-none ">
-        <div class="box ">
-          <img src="../../../../assets/images/formations/gallery/{{image.img}} " alt=" " style="height: 250px">
-          <div class="box-content ">
-            <h3 class="title ">{{image.title}}</h3>
+    <-->
+
+      <!--Gallery-->
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      <div class="container ">
+        <div class="row ">
+          <div class="col-md-12 ">
+            <div class="section-title ">
+              <h1>GALLERIE
+                <span>PHOTO</span>
+              </h1>
+              <br>
+
+            </div>
           </div>
         </div>
+        <div class="row ">
+          <div *ngFor="let image of gallery " class="col-md-4 col-sm-6 full-wd600 p-none ">
+            <div class="box ">
+              <img src="../../../../assets/images/formations/gallery/{{image.img}} " alt=" " style="height: 250px;display:flex">
+              <div class="box-content ">
+                <h3 class="title ">{{image.title}}</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br>
       </div>
-
-    </div>
-    <br>
   </div>
-</div>
 
-<!--inner content end-->
+  <!--inner content end-->

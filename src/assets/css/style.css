@@ -1080,7 +1080,7 @@ body.header-3 {
 }
 
 .fullwidth-about {
-    background: #ffdf00;
+    background: #0c1434;
 }
 
 .fullwidth-about .row {
@@ -1092,7 +1092,7 @@ body.header-3 {
 }
 
 .fullwidth-about .description {
-    padding: 65px 40px !important;
+    padding: 15px 40px !important;
 }
 
 .nav-center {
@@ -2569,7 +2569,7 @@ a.btn-style-6.dark-skin:hover {
     position: relative;
     width: 40px;
     height: 40px;
-    background: #ed1c24;
+    background: #8b252c;
     margin-right: 5px;
     border-radius: 50%;
     text-align: center;
@@ -2965,7 +2965,17 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .main-heading-events {
+    vertical-align: center;
     background: url(../images/EVENT-01.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -90px; 
+    padding: 120px 0;
+
+}
+
+.main-heading-sponsors {
+    vertical-align: center;
+    background: url(../images/Sponso-01.jpg) no-repeat;
     background-size: cover;
     background-position-y: -90px; 
     padding: 120px 0;
@@ -4217,7 +4227,7 @@ select {
 }
 
 .timeline-badge.info {
-    background-color: #00001a !important;
+    background-color: #0c1434 !important;
 }
 
 .timeline-title {
@@ -6192,7 +6202,7 @@ select {
 }
 
 .fixed-bg-1-cover {
-    background: rgba(0, 0, 0, 0.7);
+    background: url(../images/Sponso-01.jpg) no-repeat;;
     padding: 70px 0;
     min-height: 450px;
     background-size: cover;

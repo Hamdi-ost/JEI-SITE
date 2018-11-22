@@ -35,9 +35,13 @@
               "src/assets/css/responsive.css",
               "src/assets/css/style.css",
               "src/styles.css"
+         
             ],
             "scripts": [
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4c9238230ae0ac4f6ac7d3e36704c5bea89c8e01
               "src/assets/js/modernizr.min.js",
               "src/assets/js/angular.min.js",
               "src/assets/js/angular-animate.min.js",
@@ -52,7 +56,12 @@
               "src/assets/js/jquery.easing.js",
               "src/assets/js/morphext.min.js",
               "src/assets/js/jquery.filterizr.min.js",
+<<<<<<< HEAD
               "src/assets/js/projects.js" ,
+=======
+              "src/assets/js/projects.js",
+              "src/assets/js/bootstrap.min.js",
+>>>>>>> 4c9238230ae0ac4f6ac7d3e36704c5bea89c8e01
               "src/assets/js/jquery.sticky.js",
               "src/assets/js/wow.min.js",
               "src/assets/js/jquery.scrollTo.min.js",
@@ -65,6 +74,10 @@
               "src/assets/js/jquery.slicknav.js",
               "src/assets/js/modal.js",
               "src/assets/js/script.js"
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 4c9238230ae0ac4f6ac7d3e36704c5bea89c8e01
             ]
           },
           "configurations": {

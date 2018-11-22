@@ -77,29 +77,16 @@
                 </div>
               </div>
               <div class="row demo">
-                <div *ngFor="let demoImg of demo; let i=index" class="col-md-4 col-sm-6 full-wd600 p-none">
-                  <div class="box">
-                    <img data-toggle="modal" data-target="#exampleModal" src="../../../../assets/images/projects/demo/{{demoImg}}"
-                      alt="">
-                    <div class="box-content">
-                      <h3 class="title">Demo {{i+1}}</h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="home-portfolios p-t-60">
-                  <div class="row filtr-container">
-                    <div *ngFor="let demoImg of demo; let i=index" class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated"
-                      data-wew-delay="1s" data-category="1, 4" data-sort="City wonders" data-visibility="true"
-                      data-animated="true" style="visibility: visible; animation-delay: 1s;">
-                      <div class="product-container">
-                        <a href="../../../../assets/images/projects/demo/{{demoImg}}" class="portfolio-img mfp-image">
-                          <img src="../../../../assets/images/projects/demo/{{demoImg}}" alt="">
-                        </a>
-                        <span class="item-desc">Demo {{i+1}}</span>
+                <div class="main-content">
+                  <div class="container page-gallery">
+                    <div class="row">
+                      <div   *ngFor="let demoImg of demo;" class="col-md-6 col-sm-6 col-xs-12">
+                        <a href="../../../../assets/images/projects/demo/{{demoImg}}" class="portfolio-img mfp-image"><img src="../../../../assets/images/projects/demo/{{demoImg}}"
+                            alt=""></a>
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
               </div>
               <br><br>
               <p *ngIf="video" class="video">
@@ -109,28 +96,8 @@
               </p>
             </div>
 
+            
 
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </section>
 
         </div>
@@ -158,4 +125,3 @@
     </div>
   </section>
 </div>
-

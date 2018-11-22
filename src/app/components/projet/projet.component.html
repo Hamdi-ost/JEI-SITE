@@ -14,10 +14,10 @@
 
             <div class="hoverlink"></div>
           </div>
-          <div class="service-details hvr-sweep-to-bottom">
+          <div class="service-details hvr-sweep-to-bottom" style="text-align-last: center">
             <h3 style="color: #0c1434">{{projet.name}}</h3>
             <p>{{projet.decription}}</p>
-            <a routerLink="/projets/{{projet.id}}" style="margin-left: 100px;" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Lire la suite</a>
+            <a routerLink="/projets/{{projet.id}}" (click)="loadScripts()" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Lire la suite</a>
           </div>
         </div>
       </li>

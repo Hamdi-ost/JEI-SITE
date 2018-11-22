@@ -498,7 +498,6 @@
                 }
             ],
             "demo": [
-                "efret1.png",
                 "efret3.png",
                 "efret6.png",
                 "efret4.png",
@@ -608,11 +607,10 @@
                 }
             ],
             "demo": [
-                "pizza2.png",
                 "pizza3.png",
-                "pizza4.png",
                 "pizza5.png",
-                "pizza6.png"
+                "pizza6.png",
+                "pizza4.png"
             ],
             "temoignageClient": {
                 "name": "Mr Maher KHALED",
@@ -633,13 +631,8 @@
                 "La formation a comme but d’instaurer le style de gestion et de direction dans une équipe tout en ayant une attitude entrepreneuriale adéquate entre la vision et les actions. Après cette formation, les participants seront plus aptes de travailler en équipe, de diriger une équipe, et surtout d’être un « LEADER » . "
             ],
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
-            ],
-            "organizators": [
-                "Junior Entreprise INSAT"
+                "Instaurer le style de gestion et de direction dans une équipe.",
+                "Avoir une attitude entrepreneuriale adéquate entre la vision et les actions."
             ],
             "gallery": [
                 {
@@ -679,15 +672,14 @@
             ],
             "trainer": {
                 "name": "Mme Ilhem ben Gamra ",
-                "desc": "consultante en GRH",
-                "picture": "1.jpg",
-                "facebook": null,
+                "desc": "fondatrice et consultante experte à IB GRH",
+                "picture": "trainer1.jpg",
+                "facebook": "https://www.facebook.com/ilhem.remadi",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/ilhem-ben-gamra-remadi-b0629817/",
                 "instagram": null,
                 "google": null
-            },
-            "afterMovie": null
+            }
         },
         {
             "id": 2,
@@ -697,24 +689,19 @@
             "img": "2.png",
             "description": "Un junior entrepreneur ne peut exceller dans son travail qu’en gérant son stress et son temps de la meilleure des manières. Dans ce cadre, la formation a eu lieu afin de mieux connaitre les facteurs de stress et d’en tenir compte de manière à aboutir à une gestion du temps plus efficace.Après la formation, les participants ont réussi à faire l’équilibre entre les attentes de la Junior Entreprise INSAT, leurs vies privées et les nécessités estudiantines. ",
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
+                "Etre conscient de l’importance de la gestion du temps et du stress.",
+                "Apprendre à concilier entre la vie estudiantine et la vie associative."
             ],
             "trainer": {
                 "name": "Mme Ilhem Gamra",
-                "desc": "consultante en GRH",
-                "picture": "1.jpg",
-                "facebook": null,
+                "desc": "fondatrice et consultante experte à IB GRH",
+                "picture": "trainer1.jpg",
+                "facebook": "https://www.facebook.com/ilhem.remadi",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/ilhem-ben-gamra-remadi-b0629817/",
                 "instagram": null,
                 "google": null
             },
-            "organizators": [
-                "Junior Entreprise INSAT"
-            ],
             "gallery": [
                 {
                     "img": "forma2-1.jpg",
@@ -750,8 +737,7 @@
                     "review": "my review",
                     "picture": "1.jpg"
                 }
-            ],
-            "afterMovie": null
+            ]
         },
         {
             "id": 3,
@@ -760,26 +746,20 @@
             "category": "backend",
             "img": "3.jpg",
             "trainer": {
-                "name": "Lina dridi",
-                "desc": "PDG INSAT",
-                "picture": "1.jpg",
-                "facebook": null,
+                "name": "Ahmed Touati ",
+                "desc": "Etudiant en 5éme année Génie logiciel à l'INSAT. ",
+                "picture": "trainer3.jpg",
+                "facebook": "https://www.facebook.com/touaiti.ahmed",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/touaiti-ahmed/",
                 "instagram": null,
                 "google": null
             },
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
+                "Initiaition à l’utilisation du framework Laravel."
             ],
             "description": [
                 "La formation avait comme but de former une équipe qui travaille sur un projet ayant fait l’objet d’une prospection chez un client. Par le biais de cette formation, les participants se sont initiés à ce Framework qui est considéré parmi les plus appréciés pour sa simplicité et ses fonctionnalités. "
-            ],
-            "organizators": [
-                "Junior Entreprise INSAT"
             ],
             "gallery": [
                 {
@@ -812,8 +792,7 @@
                     "review": "my review",
                     "picture": "1.jpg"
                 }
-            ],
-            "afterMovie": null
+            ]
         },
         {
             "id": 4,
@@ -822,25 +801,20 @@
             "category": "design",
             "img": "4.jpg",
             "trainer": {
-                "name": "Lina dridi",
-                "desc": "PDG INSAT",
-                "picture": "1.jpg",
-                "facebook": null,
+                "name": "Zrelly Marwen",
+                "desc": "Etudiant à l’ESSTED",
+                "picture": "trainer4.jpg",
+                "facebook": "https://www.facebook.com/zrellymarwen",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/marwen-zrelly-54035b113/",
                 "instagram": null,
                 "google": null
             },
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
+                "Initiation à Photoshop.",
+                "Familiarisation avec les outils nécessaires de Photoshop."
             ],
             "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
-            "organizators": [
-                "Junior Entreprise INSAT"
-            ],
             "gallery": [
                 {
                     "img": "forma4-1.jpg",
@@ -872,8 +846,7 @@
                     "review": "my review",
                     "picture": "1.jpg"
                 }
-            ],
-            "afterMovie": null
+            ]
         },
         {
             "id": 5,
@@ -882,24 +855,19 @@
             "category": "design",
             "img": "4.jpg",
             "trainer": {
-                "name": "Lina dridi",
-                "desc": "formatrice",
-                "picture": "1.jpg",
-                "facebook": null,
+                "name": "Zrelly Marwen",
+                "desc": "Etudiant à l’ESSTED",
+                "picture": "trainer4.jpg",
+                "facebook": "https://www.facebook.com/zrellymarwen",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/marwen-zrelly-54035b113/",
                 "instagram": null,
                 "google": null
             },
             "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
-            ],
-            "organizators": [
-                "Junior Entreprise INSAT"
+                "Initiation à Photoshop.",
+                "Familiarisation avec les outils nécessaires de Photoshop."
             ],
             "gallery": [
                 {
@@ -932,8 +900,7 @@
                     "review": "my review",
                     "picture": "1.jpg"
                 }
-            ],
-            "afterMovie": null
+            ]
         },
         {
             "id": 6,
@@ -943,19 +910,16 @@
             "img": "6.png",
             "trainer": {
                 "name": "Lilia Zghal",
-                "desc": "PDG INSAT",
-                "picture": "1.jpg",
-                "facebook": null,
+                "desc": "Etudiante de l'INSAT",
+                "picture": "trainer6.jpg",
+                "facebook": "https://www.facebook.com/L.Zghal",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/lilia-zghal/",
                 "instagram": null,
                 "google": null
             },
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
+                "Dévoiler les techniques pertinentes pour réussir la procédure de sponsoring."
             ],
             "temoignages": [
                 {
@@ -972,9 +936,6 @@
                 }
             ],
             "description": "La formation avait comme but d’expliquer la procédure de sponsoring en partant de la préparation du dossier de sponsoring et en arrivant à la fidélisation des sponsors tout en dévoilant les techniques pertinentes pour intervenir au financement de la Junior Entreprise. Au cours de la formation, des simulations de réunions avec des sponsors ont été effectuées. ",
-            "organizators": [
-                "Junior Entreprise INSAT"
-            ],
             "gallery": [
                 {
                     "img": "forma6-1.jpg",
@@ -1004,8 +965,7 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ],
-            "afterMovie": null
+            ]
         },
         {
             "id": 7,
@@ -1015,19 +975,18 @@
             "img": "7.jpg",
             "trainer": {
                 "name": "Lotfi Cherif",
-                "desc": " Ex président de Junior Entreprise ENISO",
-                "picture": "1.jpg",
-                "facebook": null,
+                "desc": " Alumni JET ",
+                "picture": "trainer7.jpg",
+                "facebook": "https://www.facebook.com/lotfi.cherif.52",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/lotfi-cherif-3b5b57113/",
                 "instagram": null,
                 "google": null
             },
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
+                "Connaitre les différentes étapes de prospection.",
+                "Connaitre ses techniques et ses astuces.",
+                "prendre par la pratique."
             ],
             "temoignages": [
                 {
@@ -1044,9 +1003,6 @@
                 }
             ],
             "description": "La formation était dédiée à tous ceux qui sont intéressés par la prospection. Cela leurs a permis de connaitre ces différentes étapes, ces techniques et quelques astuces pour réussir sa prospection. Des exercices pratiques ont été effectués impliquant la totalité des membres.",
-            "organizators": [
-                "Junior Entreprise INSAT"
-            ],
             "gallery": [
                 {
                     "img": "forma6-1.jpg",
@@ -1076,30 +1032,26 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ],
-            "afterMovie": null
+            ]
         },
         {
             "id": 8,
             "name": "Formation en Event Management",
             "date": "13/10/2018",
             "category": "soft skills",
-            "img": "8.jpg",
+            "img": "forma8.jpg",
             "trainer": {
                 "name": "Fourat Hammi ",
-                "desc": "allumni de la JET ",
-                "picture": "1.jpg",
-                "facebook": null,
+                "desc": "alumni JET ",
+                "picture": "trainer8.jpg",
+                "facebook": "https://www.facebook.com/fourat.hammi",
                 "twitter": null,
-                "linkedin": null,
+                "linkedin": "https://www.linkedin.com/in/fourat-hammi-1b68687b/",
                 "instagram": null,
                 "google": null
             },
             "objectifs": [
-                "objectif1",
-                "objectif2",
-                "objectif3",
-                "objectif4"
+                "Réussir les étapes de préparation des événements."
             ],
             "temoignages": [
                 {
@@ -1116,29 +1068,14 @@
                 }
             ],
             "description": "Au cours de cette formation, les membres ont assisté à un partage de savoir, de connaissances et d’expérience dans le domaine de l’évènementiel, qui ne pouvait être que bénéfique.",
-            "organizators": [
-                "Junior Entreprise INSAT"
-            ],
             "gallery": [
                 {
-                    "img": "forma6-1.jpg",
+                    "img": "forma8-1.jpg",
                     "title": "Photo 1"
                 },
                 {
-                    "img": "forma6-2.jpg",
+                    "img": "forma8-2.jpg",
                     "title": "Photo 2"
-                },
-                {
-                    "img": "forma6-3.jpg",
-                    "title": "Photo 3"
-                },
-                {
-                    "img": "forma6-4.jpg",
-                    "title": "Photo 4"
-                },
-                {
-                    "img": "forma6-5.jpg",
-                    "title": "Photo 5"
                 }
             ],
             "sponsors": [
@@ -1148,8 +1085,7 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ],
-            "afterMovie": null
+            ]
         }
     ],
     "sponsors": [
@@ -1249,6 +1185,120 @@
             "name": "PFI Consulting",
             "img": "pfi-consulting.png",
             "link": "https://ween.tn/fiche/pfi-consulting"
+        }
+    ],
+    "GlobalActualite": [
+        {
+            "id": "1",
+            "date": "2018",
+            "actualites": [
+                {
+                    "id": "1",
+                    "date": "Le Mercredi 06/02/2018",
+                    "name": "Proin laoreet fringilla congue",
+                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "1.jpg"
+                        },
+                        {
+                            "name": "image2",
+                            "img": "2.jpg"
+                        },
+                        {
+                            "name": "image3",
+                            "img": "1.jpg"
+                        },
+                        {
+                            "name": "image4",
+                            "img": "2.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "date": "Le Mercredi 06/02/2018",
+                    "name": "Proin laoreet fringilla congue",
+                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "2.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "date": "2017",
+            "actualites": [
+                {
+                    "id": "1",
+                    "date": "Le jeudi 20/10/2017",
+                    "name": "Nunc aliquet est at erat semper",
+                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "1.jpg"
+                        },
+                        {
+                            "name": "image2",
+                            "img": "1.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "date": "Le jeudi 20/10/2017",
+                    "name": "Nunc aliquet est at erat semper",
+                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "date": "2016",
+            "actualites": [
+                {
+                    "id": "1",
+                    "date": "Le Mercredi 06/02/2016",
+                    "name": "Nunc aliquet est at erat semper",
+                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2015",
+            "actualites": [
+                {
+                    "id": "1",
+                    "date": "Le Mercredi 06/02/2015",
+                    "name": "Nunc aliquet est at erat semper",
+                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "1.jpg"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

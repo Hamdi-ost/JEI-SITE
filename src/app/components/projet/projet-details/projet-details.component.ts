@@ -3,12 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import * as data from '../../../../assets/contenu.json';
 
 
+
 @Component({
   selector: 'app-projet-details',
   templateUrl: './projet-details.component.html',
   styleUrls: ['./projet-details.component.css']
 })
-export class ProjetDetailsComponent  implements AfterViewInit {
+export class ProjetDetailsComponent  implements OnInit {
 
   name ;
   client;
@@ -52,10 +53,7 @@ export class ProjetDetailsComponent  implements AfterViewInit {
 
   }
 
-  ngAfterViewInit() {
-  const s = document.createElement('script');
-  s.type = 'text/javascript';
-   s.innerHTML = 'console.log(\'done\');'; // inline script
+  ngOnInit() {
  }
 
 }

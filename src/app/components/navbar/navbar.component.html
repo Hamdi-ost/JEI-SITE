@@ -1,33 +1,77 @@
-<div style="margin-bottom: 93px;">
+<!-- <div style="margin-bottom: 93px;">
   <div class="navbar-fixed-top navbar-expand-md">
     <nav class="navbar" style="height: 90px">
       <span class="navbar-toggle" id="js-navbar-toggle">
         <i class="fa fa-bars"></i>
       </span>
+
+
       <a>
         <div style="height:76px; width:154px; margin-top: -70px;">
           <a routerLink='/home'><img src="../../../assets/images/fond_blanc-01-01.png"></a>
         </div>
       </a>
       <ul class="main-nav" id="js-menu">
-        <li> <a class="nav-links" routerLink='/home'> Home </a> </li>
-        <li> <a class="nav-links" routerLink='/actualite'>Actualités</a></li>
-        <li> <a class="nav-links" routerLink='/evenement'>Evenements</a></li>
-        <li> <a class="nav-links" routerLink='/projet'> Projets </a></li>
-        <li> <a class="nav-links" routerLink='/formation'> Formations </a></li>
-        <li> <a class="nav-links" routerLink='/structure'> Structure</a></li>
-        <li> <a class="nav-links" routerLink='/contact'> Contact us</a></li>
-        <li> <a class="nav-links" routerLink='/sponsor'> Sponsors</a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/home'> Home </a> </li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/actualite'>Actualités</a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/evenement'>Evenements</a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/projet'> Projets </a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/formation'> Formations </a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/structure'> Structure</a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/contact'> Contact us</a></li>
+        <li> <a class="nav-links" (click)="loadScripts()" routerLink='/sponsor'> Sponsors</a></li>
       </ul>
     </nav>
   </div>
 </div>
 
-<script>
-  let mainNav = document.getElementById('js-menu');
-  let navBarToggle = document.getElementById('js-navbar-toggle');
 
-  navBarToggle.addEventListener('click', function () {
-    mainNav.classList.toggle('active');
-  });
-</script>
+ -->
+
+
+<div id="sticker-sticky-wrapper" class="sticky-wrapper" style="height: 90px;">
+  <div id="sticker" class="header" style="width: 1284px;">
+    <div class="container">
+      <!-- Row Rtart -->
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div style="height:100px;">
+            <a><img style=" height:130px; 
+              width:170px; 
+              margin: -30px -50px; 
+              position:relative;
+              top:50%; 
+              left:50%;"src="../../../assets/images/fond_blanc-01-01.png"></a>
+          </div>
+        </div>
+        
+        <div class="col-md-9 col-sm-9  col-xs-6">
+          <!--navegation-->
+          <div class="navigationwrape">
+            <div class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> </button>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav-center nav navbar-nav">
+                  <li> <a (click)="loadScripts()" routerLink='/home'> Home </a> </li>
+                  <li> <a (click)="loadScripts()" routerLink='/actualite'>Actualités</a></li>
+                  <li> <a (click)="loadScripts()" routerLink='/evenement'>Evenements</a></li>
+                  <li> <a (click)="loadScripts()" routerLink='/projet'> Projets </a></li>
+                  <li> <a (click)="loadScripts()" routerLink='/formation'> Formations </a></li>
+                  <li> <a (click)="loadScripts()" routerLink='/structure'> Structure</a></li>
+                  <li> <a (click)="loadScripts()" routerLink='/contact'> Contact us</a></li>
+                  <li> <a (click)="loadScripts()" routerLink='/sponsor'> Sponsors</a></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row End -->
+    </div>
+  </div>
+</div>

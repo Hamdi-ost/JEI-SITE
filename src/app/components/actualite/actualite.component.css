@@ -1,0 +1,51 @@
+.btn-style-6-1 {
+    background: transparant;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: 2px solid brown;
+    color: brown!important;
+}
+
+.btn-style-6-1.dark-skin {
+    border: 2px solid #fff;
+    color: #fff !important;
+}
+
+a.btn-style-6-1:hover {
+    background: brown;
+    color: #fff !important;
+}
+
+a.btn-style-6-1.dark-skin:hover {
+    background: #fff;
+    color:  #706e6e!important;
+}
+.btn-style-6-2 {
+    background: transparant;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: 2px solid #0c1434;
+    color: #0c1434!important;
+}
+
+.btn-style-6-2.dark-skin {
+    border: 2px solid #fff;
+    color: #fff !important;
+}
+
+a.btn-style-6-2:hover {
+    background: #0c1434;
+    color: #fff !important;
+}
+
+a.btn-style-6-2.dark-skin:hover {
+    background: #fff;
+    color:  #706e6e!important;
+}
+
+.titlebrown{
+    color:brown
+}
+.titleblue{
+    color:#00004d
+}

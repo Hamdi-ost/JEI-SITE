@@ -19,7 +19,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #8b252c;
+    background: #c0c0c0;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0;
@@ -32,7 +32,7 @@
     transition-timing-function: ease-out;
   }
   .hvr-sweep-to-bottom:hover p, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active{
-    color: white;
+    color: black;
     
   }
   .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
