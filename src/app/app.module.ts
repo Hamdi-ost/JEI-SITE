@@ -1,4 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
@@ -23,9 +22,15 @@ import { Departement1Component } from './components/structure/departement1/depar
 import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
+<<<<<<< HEAD
+import {BrowserModule} from '@angular/platform-browser';
+import {FormsModule, NgForm} from '@angular/forms';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+=======
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
+>>>>>>> 4c9238230ae0ac4f6ac7d3e36704c5bea89c8e01
 
 
 const appRoutes: Routes = [
@@ -73,8 +78,13 @@ const appRoutes: Routes = [
     FormsModule,
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+<<<<<<< HEAD
+    FormsModule,
+    AngularFireDatabaseModule
+=======
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebase),
+>>>>>>> 4c9238230ae0ac4f6ac7d3e36704c5bea89c8e01
   ],
   providers: [YearsNavbarService],
   bootstrap: [AppComponent]

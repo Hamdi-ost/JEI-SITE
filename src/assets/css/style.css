@@ -7546,7 +7546,9 @@ img {
 
 /* Lists
 ---------------------------------- */
-
+ul {
+  list-style: none;
+}
 
 .list-icons,
 .list {
@@ -16622,4 +16624,9 @@ h6.media-heading {
     position: absolute;
     left: 10px;
     top: -5px;
+}
+
+
+.red {
+  color: #dd4b39;
 }

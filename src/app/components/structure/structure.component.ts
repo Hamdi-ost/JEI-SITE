@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./structure.component.css']
 })
 export class StructureComponent {
-  
 MemberList = [
   {
     name: 'Mohamed Aziz FEKIH',
@@ -51,9 +50,7 @@ verifDepartement2=false;
 verifDepartement3=false;
 verifDepartement4=false;
 
- constructor (){
- }
- 
+ constructor (){}
 /* onDepartement(i){
   switch(i) { 
     case 0: { 
@@ -81,3 +78,4 @@ verifDepartement4=false;
   }   
  }*/
 }
+
