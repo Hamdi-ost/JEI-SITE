@@ -2126,6 +2126,11 @@ a.btn-style-6.dark-skin:hover {
     padding-bottom: 20px;
 }
 
+.service-container2 {
+   padding: 40px 0;
+background: white;
+text-align: center;
+}
 .service-container {
     padding: 40px 0;
     background: #eee;
@@ -2949,11 +2954,18 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .main-heading {
-    background: url(../images/projects-01-01.jpg) no-repeat;
+    background: url(../images/Projets.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -90px; 
+    background-position-y: -120px; 
     padding: 120px 0;
 
+}
+
+.main-heading-structure {
+    background: url(../images/Structure.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -150px; 
+    padding: 120px 0;
 }
 
 
@@ -2966,44 +2978,80 @@ a.btn-style-6.dark-skin:hover {
 
 .main-heading-events {
     vertical-align: center;
-    background: url(../images/EVENT-01.jpg) no-repeat;
+    background: url(../images/Evénements.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -90px; 
+    background-position-y: -150px;     
     padding: 120px 0;
 
 }
 
 .main-heading-sponsors {
     vertical-align: center;
-    background: url(../images/Sponso-01.jpg) no-repeat;
+    background: url(../images/Sposnoring.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -90px; 
+    background-position-y: -150px;     
     padding: 120px 0;
 
 }
 
 .main-heading-contact {
-    background: url(../images/CONTACT-01.jpg) no-repeat;
+    vertical-align: center;
+    background: url(../images/Contacts.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -90px; 
+    background-position-y: -150px;     
     padding: 120px 0;
 
 }
 
 .main-heading-formations {
-    background: url(../images/FORMATIONS-01.jpg) no-repeat;
+    background: url(../images/Formations.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -90px; 
+    background-position-y: -150px;     
     padding: 120px 0;
 
 }
 
 .main-heading-actualites {
-    background: url(../images/ACTU-01.jpg) no-repeat;
+    background: url(../images/Actualités.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -90px; 
+    background-position-y: -150px;     
     padding: 120px 0;
 
+}
+
+@media(max-width: 768px) {
+    .main-heading-actualites {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading-formations {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading-structure {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading-contact {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading-sponsors {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading-events {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
+    .main-heading-error {
+        background-position-y: -10px;  
+        background-position-x: -110px;     
+    }
 }
 
 .blank-heading {
@@ -3875,6 +3923,7 @@ a.btn-style-6.dark-skin:hover {
         width: 100%;
     }
     .navigationwrape {
+        
         float: none;
         display: none;
     }
@@ -7315,6 +7364,7 @@ select {
     margin: 0;
 }
 
+
 #index1{
    
     display:block;
@@ -7407,6 +7457,13 @@ select {
 @media screen and (max-width: 520px) {
     .slicknav_menu {
         display:block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    .logoli {
+        display: none;
     }
     nav ul {
         display:none;
@@ -7489,7 +7546,9 @@ img {
 
 /* Lists
 ---------------------------------- */
-
+ul {
+  list-style: none;
+}
 
 .list-icons,
 .list {
@@ -16565,4 +16624,9 @@ h6.media-heading {
     position: absolute;
     left: 10px;
     top: -5px;
+}
+
+
+.red {
+  color: #dd4b39;
 }

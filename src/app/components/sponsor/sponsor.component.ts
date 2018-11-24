@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 // @ts-ignore
 import * as data from '../../../assets/contenu.json';
-
+import * as $ from 'jquery';
 
 
 @Component({
@@ -19,7 +19,20 @@ export class SponsorComponent implements OnInit {
     this.partners = data['partners'];
   }
 
-  ngOnInit() {
-  }
+
+
+  ngOnInit(){
+
+
+  $(document).ready(function() {
+
+
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    $('img').tooltip('disable');
+  });
+
+}
 
 }

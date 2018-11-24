@@ -26,7 +26,7 @@ export class FormationDetailsComponent {
   getDetails(id) {
 
     const details = data['formations'].filter(detail => {
-      if (detail.id == id) {
+      if (detail.id === id) {
         this.name = detail.name;
         this.temoignages = detail.temoignages;
         this.objectifs = detail.objectifs;

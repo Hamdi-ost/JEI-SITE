@@ -1,4 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
@@ -23,11 +22,13 @@ import { Departement1Component } from './components/structure/departement1/depar
 import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {FormsModule, NgForm} from '@angular/forms';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
-
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent },
@@ -76,6 +77,8 @@ const appRoutes: Routes = [
     FormsModule,
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+    FormsModule,
+    AngularFireDatabaseModule
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebase),
   ],
