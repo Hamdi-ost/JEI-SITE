@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// @ts-ignore
 import * as data from '../../../assets/contenu.json';
 
 @Component({

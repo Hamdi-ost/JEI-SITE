@@ -1091,100 +1091,85 @@
     "sponsors": [
         {
             "name": "Infor",
-            "img": "infor.jpg",
-            "link": "https://www.infor.com/"
+            "img": "infor.jpg"
         },
         {
             "name": "Incept",
-            "img": "incept.jpg",
-             "link": "http://www.incept.tn/"
+            "img": "incept.jpg"
         },
         {
             "name": "Studely",
-            "img": "studely.jpg",
-            "link": "https://studely.com/"
+            "img": "studely.jpg"
         },
         {
             "name": "Laser Ice Game",
-            "img": "laser-game-evolution.jpg",
-            "link": "http://lasergame-evolution.tn/"
+            "img": "laser-game-evolution.jpg"
+        },
+        {
+            "name": "Bouche B",
+            "img": "logo-1.png"
         },
         {
             "name": "Arvea",
-            "img": "arvea.jpg",
-            "link": "http://www.arvea-nature.com/"
+            "img": "arvea.jpg"
         },
         {
             "name": "Five Points",
-            "img": "5-points.jpg",
-            "link": "http://fivepoints.tn/"
+            "img": "5-points.jpg"
         },
         {
             "name": "Atct",
-            "img": "atct.jpg",
-            "link": "http://www.tunisie-competences.nat.tn/default.aspx?lg=1"
+            "img": "atct.jpg"
         },
         {
             "name": "Digitys",
-            "img": "digitys.jpg",
-            "link": "http://www.digi-sys.net/"
+            "img": "digitys.jpg"
         },
         {
             "name": "Ennakel",
-            "img": "ennakel.jpg",
-            "link": "http://www.ennakl.com/Fr/"
+            "img": "ennakel.jpg"
         },
         {
             "name": "Express FM",
-            "img": "express.jpg",
-            "link": "http://www.radioexpressfm.com/"
+            "img": "express.jpg"
         },
         {
             "name": "Mehdi Tours",
-            "img": "mehdi-tours.jpg",
-            "link": "https://fr-fr.facebook.com/MehdiTours/"
+            "img": "mehdi-tours.jpg"
         },
         {
             "name": "MIT",
-            "img": "mit.jpg",
-            "link": "https://mit-tunisia.com/"
+            "img": "mit.jpg"
         },
         {
             "name": "Ooredoo",
-            "img": "ooredoo.jpg",
-            "link": "http://www.ooredoo.tn/"
+            "img": "ooredoo.jpg"
         },
         {
             "name": "Perfect Vision",
-            "img": "perfect-vision.jpg",
-            "link": "/sponsor"
+            "img": "perfect-vision.jpg"
         },
         {
             "name": "The Corner",
-            "img": "the-corner.jpg",
-            "link": "http://thecorner.tn/"
+            "img": "the-corner.jpg"
         },
         {
             "name": "Tunisie Telecom",
-            "img": "tunisie-telecom.jpg",
-            "link": "https://www.tunisietelecom.tn/"
+            "img": "tunisie-telecom.jpg"
         },
         {
             "name": "Vistaprint",
-            "img": "vistaprint.jpg",
-            "link": "https://www.vistaprint.fr/"
+            "img": "vistaprint.jpg"
         }
     ],
     "partners": [
         {
             "name": "CFE Conseil",
-            "img": "cef-conseil.jpg",
-            "link": "/sponsor"
+            "img": "cef-conseil.jpg"
         },
         {
             "name": "PFI Consulting",
-            "img": "pfi-consulting.png",
-            "link": "https://ween.tn/fiche/pfi-consulting"
+            "img": "pfi-consulting.png"
         }
     ],
     "GlobalActualite": [

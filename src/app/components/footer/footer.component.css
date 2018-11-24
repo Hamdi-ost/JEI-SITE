@@ -1,6 +1,6 @@
 
 .footer {
-  background-color: rgb(12, 20, 52);
+  background-color: #04091e;
   width: 100%;
   text-align: center;
   padding: 40px 0 0 0;
@@ -37,14 +37,14 @@
   display: inline-block;
   padding: 13px 0;
   vertical-align: middle;
-  background: rgb(139,37,44);
+  background: red;
   color: white;
   border: none;
   border-radius: 0 10px 10px 0;
 }
 
 #footer02 {
-  background: rgb(139,37,44);
+  background: #08123a;
   padding: 20px 0;
   color: white;
   margin-top: 32px;
