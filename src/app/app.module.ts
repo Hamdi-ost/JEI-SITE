@@ -34,7 +34,7 @@ const appRoutes: Routes = [
   { path: 'actualite/:year/:id', component: ActualiteDetailsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'evenement', component: EvenementComponent },
-  { path: 'aboutus', component:AboutusComponent}
+  { path: 'aboutus', component:AboutusComponent},
   { path: 'not-found', component: ErrorComponent },
   { path: 'formation', component: FormationComponent },
   { path: 'home', component: HomeComponent },

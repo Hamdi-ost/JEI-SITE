@@ -1285,5 +1285,27 @@
                 }
             ]
         }
+    ],
+    
+    "aboutus":[
+        {
+            "id":1,
+            "titre":"Quelques mots sur notre Université ",
+            "description":"L'INSAT, créé en 1922 (loi n°92-102 du 02 novembre 1992), est une institution publique placée sous la tutelle du Ministère de l’Enseignement Supérieur et de la Recherche Scientifique. Selon l’article 2 de la loi n°92-102, l’INSAT : -Dispense un enseignement supérieur ayant pour objet la formation de cadres qualifies et de cadres hautement qualifiés dans les domaines de l’ingénierie et de la technologie pour les secteurs public et privé de la vie économique et de la recherche ; -Participe à la formation continue des ingénieurs ; -Assure directement ou indirectement la promotion de ses activités de formation et de recherche et les faits connaître ; -Participe à la mission de diffusion de la culture scientifique et technique ; Concourt par les activités qui l’organise, à l’effort de développement technologique et de recherche."
+        },
+        {    
+            "id":2,
+            "titre":"Qui sommes-nous ?",
+            "description" :"La Junior Entreprise INSAT est un club à but non lucratif fondé en 2005 et a rejoint la Confédération Nationale des Juniors Entreprises  JET en 2012. La mission de la Junior Entreprise INSAT est de former les différents étudiants dans le domaine de l'entreprenariat et leur faciliter de ce fait l'intégration dans la vie professionnelle. Les principales compétences de la Junior Entreprise INSAT tournent principalement autour du développement Web, du développement mobile et du référencement."
+        },
+        {
+            "id":3,
+            "titre":"Une Junior Entreprise ? ",
+            "description":"Une Junior Entreprise (J.E.) est un bureau d’études implanté au sein d’une institution universitaire, géré intégralement par des étudiants et proposant aux entreprises et aux particuliers des services de conseil dans les domaines respectifs de l’école d’implantation. La Junior entreprise est définie comme un trait d’union entre l’espace universitaire et le monde des affaires. L’activité d’une junior entreprise vise à doter les étudiants d’une culture entrepreneuriale et d’un esprit de leadership tous deux indispensable de nos jours pour exceller dans le monde du travail."
+        },
+        {   "id":4,
+            "titre":"LA CONFÉDÉRATION TUNISIENNE DES JUNIOR ENTREPRISES",
+            "description":"La JET est la Confédération Tunisienne des Junior Entreprises. Il s’agit d’une structure d’accompagnement, venue chapeauter et guider les Junior Entreprises dans leur travail et formation.Fondée en 2012 par quatre Junior Entreprises, la JET s’est lancée dans le but d’étendre le réseau de Junior Entrepreneurs en Tunisie et de les représenter dans le monde.En 2018, la JET fédère 38 Junior Entreprises réparties à travers le territoire tunisien. Leurs domaines de compétence passent par l’ingénierie, le commerce et gestion, le design, les sciences politiques et juridiques, l’agronomie et bien plus."
+        }
     ]
 }
