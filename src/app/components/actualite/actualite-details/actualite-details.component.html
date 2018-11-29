@@ -15,22 +15,19 @@
         <h4>{{id}}</h4>
         <-->
           <div class="about-section wew fadeInUp" data-wew-delay="1s">{{date}}</div>
-          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{description}} </p>
+
+          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{description1}} </p>
+          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{description2}} </p>
+
+
           <ul class="m-t-30 about-service wew fadeInUp" data-wew-delay="1s">
-            <li>Sed aliquet leo ac enim ultrices.</li>
-            <li>Vivamus consectetur orci augue.</li>
-            <li>Nibh tristique in. Phasellus semper.</li>
-            <li>Eget facilisis cursus, orci tortor.</li>
-            <li>Commodo eros nibh in eros phasellus.</li>
-            <li>Placerat libero, ut rhoncus velit.</li>
-            <li>Non libero malesuada, eleifend nequ.</li>
-            <li>Sit amet finibus purus, in facilisis.</li>
-            <li>Nunc malesuada elit nec vehicula.</li>
-            <li>Suspendisse aliquet orci malesuada.</li>
-            <li>Vivamus interdum urna vitae tortor.</li>
-            <li>Proin tempus sodales eros ut viverra.</li>
-            <div class="clearfix"></div>
+            <ng-container *ngFor="let point of points">
+              <li>{{point.desc}}</li>
+              <div class="clearfix"></div>
+            </ng-container>
           </ul>
+
+          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{afterPoint}} </p>
 
 
 

@@ -12,8 +12,11 @@ export class ActualiteDetailsComponent {
   name1;
   name2;
   date;
-  description;
+  description1;
+  description2;
+  afterPoint;
   img;
+  points;
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
       this.id = params['id']
@@ -28,8 +31,11 @@ export class ActualiteDetailsComponent {
       this.name2 = name[name.length - 1]
       this.name1 = name.slice(0, name.length - 1).join(' ')
       this.date = actualite.date
-      this.description = actualite.description
+      this.description1 = actualite.description1
+      this.description2 = actualite.description2
       this.img = actualite.images
+      this.points = actualite.points
+      this.afterPoint = actualite.afterPoint
     });
 
   }

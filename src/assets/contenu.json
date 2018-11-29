@@ -1179,9 +1179,49 @@
             "actualites": [
                 {
                     "id": "1",
-                    "date": "Le Mercredi 06/02/2018",
-                    "name": "Proin laoreet fringilla congue",
-                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "date": "Le Mercredi 06/02/2018 à regler",
+                    "name": "Les élections du nouveau bureau exécutif pour le mandat 2018-2019",
+                    "description1": "Des élections tenues au sein de la Junior Entreprise INSAT ont donnée naissance, aujourd'hui, *LA DATE*, à une nouvelle composition du bureau éxecutif de notre Junior Entrprise. Des étudiants jeunes et motivés éspèrenet donner un souffle nouveau pour faire, sans doute, briller l’image de la Junior Entreprise INSAT.",
+                    "description2": "Le nouveau bureau exécutif pour le mandat 2018-2019 est composé de : ",
+                    "afterPoint": "Que ce mandat soit exceptionnel, plein de succès et de réussite.",
+                    "points": [
+                        {
+                            "name": "point1",
+                            "desc": "Fekih Mohamed Aziz : Président"
+                        },
+                        {
+                            "name": "point2",
+                            "desc": "Attia Zeineb : Vice-présidente"
+                        },
+                        {
+                            "name": "point3",
+                            "desc": "Merchaoui Yosr : Secrétaire générale"
+                        },
+                        {
+                            "name": "point4",
+                            "desc": "Dabbabi Sarra : Trésorière "
+                        },
+                        {
+                            "name": "point5",
+                            "desc": "Bibi Mohamed Aziz : Responsable projet et prospection"
+                        },
+                        {
+                            "name": "point6",
+                            "desc": "Boussaid Yasmine : Responsable évenementiel"
+                        },
+                        {
+                            "name": "point7",
+                            "desc": "Kilani Iheb : Responsable communication"
+                        },
+                        {
+                            "name": "point8",
+                            "desc": "Aidi Houyem : Responsable sponsoring"
+                        },
+                        {
+                            "name": "point9",
+                            "desc": "Chebbi Amani : Responsable ressources humaines"
+                        }
+                    ],
                     "images": [
                         {
                             "name": "image1",
@@ -1203,9 +1243,12 @@
                 },
                 {
                     "id": "2",
-                    "date": "Le Mercredi 06/02/2018",
-                    "name": "Proin laoreet fringilla congue",
-                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "date": "Le Mercredi 06/02/2018 à verifier",
+                    "name": "Formation Event management",
+                    "description1": "Le mercredi (date), nous avons eu l’immense plaisir d’accueillir parmi nous le fameux Fourat hammi qui est ‘LE’ meilleur formateur en terme d’Event managment . Cet homme extraordinaire qui faisait partie des fondateurs de la JE Enet’com , l’un des premiers à promouvoir le mouvement en Tunisie , occupait pendant deux ans le poste de vice-président de la junior entreprise de Tunis. Etant un expert dans son domaine, il peut mieux que quiconque former des juniors entrepreneurs.",
+                    "description2": "Lors de cette formation, Monsieur Hammi a appris à nos membres comment préparer un évènement de A à Z , dont la manière d’aborder et de réagir face à certaines circonstances , les différents plans à établir afin d’éviter les imprévus , réagir face au stress ,comment être pragmatique , etc.. Toutes les bonnes pratiques afin de réussir un évènement.",
+                    "afterPoint": "Nous souhaitons le remercier pour sa coopération, pour son implication dans ce mouvement et pour sa merveilleuse présence lors de cette rencontre.",
+                    "points": null,
                     "images": [
                         {
                             "name": "image1",
@@ -1286,26 +1329,26 @@
             ]
         }
     ],
-    
-    "aboutus":[
+    "aboutus": [
         {
-            "id":1,
-            "titre":"Quelques mots sur notre Université ",
-            "description":"L'INSAT, créé en 1922 (loi n°92-102 du 02 novembre 1992), est une institution publique placée sous la tutelle du Ministère de l’Enseignement Supérieur et de la Recherche Scientifique. Selon l’article 2 de la loi n°92-102, l’INSAT : -Dispense un enseignement supérieur ayant pour objet la formation de cadres qualifies et de cadres hautement qualifiés dans les domaines de l’ingénierie et de la technologie pour les secteurs public et privé de la vie économique et de la recherche ; -Participe à la formation continue des ingénieurs ; -Assure directement ou indirectement la promotion de ses activités de formation et de recherche et les faits connaître ; -Participe à la mission de diffusion de la culture scientifique et technique ; Concourt par les activités qui l’organise, à l’effort de développement technologique et de recherche."
-        },
-        {    
-            "id":2,
-            "titre":"Qui sommes-nous ?",
-            "description" :"La Junior Entreprise INSAT est un club à but non lucratif fondé en 2005 et a rejoint la Confédération Nationale des Juniors Entreprises  JET en 2012. La mission de la Junior Entreprise INSAT est de former les différents étudiants dans le domaine de l'entreprenariat et leur faciliter de ce fait l'intégration dans la vie professionnelle. Les principales compétences de la Junior Entreprise INSAT tournent principalement autour du développement Web, du développement mobile et du référencement."
+            "id": 1,
+            "titre": "Quelques mots sur notre Université ",
+            "description": "L'INSAT, créé en 1922 (loi n°92-102 du 02 novembre 1992), est une institution publique placée sous la tutelle du Ministère de l’Enseignement Supérieur et de la Recherche Scientifique. Selon l’article 2 de la loi n°92-102, l’INSAT : -Dispense un enseignement supérieur ayant pour objet la formation de cadres qualifies et de cadres hautement qualifiés dans les domaines de l’ingénierie et de la technologie pour les secteurs public et privé de la vie économique et de la recherche ; -Participe à la formation continue des ingénieurs ; -Assure directement ou indirectement la promotion de ses activités de formation et de recherche et les faits connaître ; -Participe à la mission de diffusion de la culture scientifique et technique ; Concourt par les activités qui l’organise, à l’effort de développement technologique et de recherche."
         },
         {
-            "id":3,
-            "titre":"Une Junior Entreprise ? ",
-            "description":"Une Junior Entreprise (J.E.) est un bureau d’études implanté au sein d’une institution universitaire, géré intégralement par des étudiants et proposant aux entreprises et aux particuliers des services de conseil dans les domaines respectifs de l’école d’implantation. La Junior entreprise est définie comme un trait d’union entre l’espace universitaire et le monde des affaires. L’activité d’une junior entreprise vise à doter les étudiants d’une culture entrepreneuriale et d’un esprit de leadership tous deux indispensable de nos jours pour exceller dans le monde du travail."
+            "id": 2,
+            "titre": "Qui sommes-nous ?",
+            "description": "La Junior Entreprise INSAT est un club à but non lucratif fondé en 2005 et a rejoint la Confédération Nationale des Juniors Entreprises  JET en 2012. La mission de la Junior Entreprise INSAT est de former les différents étudiants dans le domaine de l'entreprenariat et leur faciliter de ce fait l'intégration dans la vie professionnelle. Les principales compétences de la Junior Entreprise INSAT tournent principalement autour du développement Web, du développement mobile et du référencement."
         },
-        {   "id":4,
-            "titre":"LA CONFÉDÉRATION TUNISIENNE DES JUNIOR ENTREPRISES",
-            "description":"La JET est la Confédération Tunisienne des Junior Entreprises. Il s’agit d’une structure d’accompagnement, venue chapeauter et guider les Junior Entreprises dans leur travail et formation.Fondée en 2012 par quatre Junior Entreprises, la JET s’est lancée dans le but d’étendre le réseau de Junior Entrepreneurs en Tunisie et de les représenter dans le monde.En 2018, la JET fédère 38 Junior Entreprises réparties à travers le territoire tunisien. Leurs domaines de compétence passent par l’ingénierie, le commerce et gestion, le design, les sciences politiques et juridiques, l’agronomie et bien plus."
+        {
+            "id": 3,
+            "titre": "Une Junior Entreprise ? ",
+            "description": "Une Junior Entreprise (J.E.) est un bureau d’études implanté au sein d’une institution universitaire, géré intégralement par des étudiants et proposant aux entreprises et aux particuliers des services de conseil dans les domaines respectifs de l’école d’implantation. La Junior entreprise est définie comme un trait d’union entre l’espace universitaire et le monde des affaires. L’activité d’une junior entreprise vise à doter les étudiants d’une culture entrepreneuriale et d’un esprit de leadership tous deux indispensable de nos jours pour exceller dans le monde du travail."
+        },
+        {
+            "id": 4,
+            "titre": "LA CONFÉDÉRATION TUNISIENNE DES JUNIOR ENTREPRISES",
+            "description": "La JET est la Confédération Tunisienne des Junior Entreprises. Il s’agit d’une structure d’accompagnement, venue chapeauter et guider les Junior Entreprises dans leur travail et formation.Fondée en 2012 par quatre Junior Entreprises, la JET s’est lancée dans le but d’étendre le réseau de Junior Entrepreneurs en Tunisie et de les représenter dans le monde.En 2018, la JET fédère 38 Junior Entreprises réparties à travers le territoire tunisien. Leurs domaines de compétence passent par l’ingénierie, le commerce et gestion, le design, les sciences politiques et juridiques, l’agronomie et bien plus."
         }
     ]
 }
