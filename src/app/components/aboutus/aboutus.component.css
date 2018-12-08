@@ -66,3 +66,66 @@
 .about{
     padding:45px;
 }
+
+.nosvaleurs{
+    background-color:rgb(139,37,44);
+    color: white;
+    padding: 40px;
+    text-align:center;
+    font-family: fantasy;
+}
+
+
+.valeurs h2{
+    color: white;
+    background: #922a38;
+    padding: 24px 60px;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+}
+
+.valeurs ul{
+    text-align: center;
+    background: #081a36;
+    padding: 16px 0
+}
+
+.valeurs ul li{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding:0 8px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 60px
+}
+
+.valeurs ul li img{
+    width: 48px;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+
+.valeurs ul li p,.valeurs ul li h4{
+    color: white
+}
+
+.valeurs ul li p{
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;	
+}
+
+.valeurs ul li h4{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 600;
+
+}
