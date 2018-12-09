@@ -29,6 +29,26 @@
   width: 40%;
 }
 
+.btn-primary:hover, A:hover{
+  border-color:#952F36!important;
+  COLOR: #952F36!important;
+  }
+ /* .hell {
+    
+      width: 300px;
+      border: 25px solid green;
+      padding: 25px;
+      margin: 25px;
+    
+  }
+  .hell:hover {
+    border-color:#952F36!important;
+    text-decoration-color: #952F36!important;
+  }*/
+
+/*A:hover { COLOR: #952F36!important;
+   TEXT-DECORATION: none; 
+   font-weight: none }*/
 /* The company logo */
 
 .footer-distributed h3{
